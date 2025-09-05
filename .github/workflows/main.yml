@@ -34,13 +34,5 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          exclude: |
-            .git/
-            .github/
-            node_modules/
-            .nuxt/
-            .output/server/
-          local-dir: '.output/public/' # ⚠️ Carpeta generada por Nuxt
-          remote-dir: '/public_html/' # Ajusta según tu hosting
-          dangerous-clean-remote: true
+          local-dir: '.output/public/'
           dry-run: false
