@@ -20,7 +20,11 @@ jobs:
       - name: 📂 Sync files via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          dry-run: false
+              server: ${{ secrets.FTP_HOST }}   # 👈 ya usas tu secret
+              username: ${{ secrets.FTP_USER }}
+              password: ${{ secrets.FTP_PASS }}
+              protocol: ftps-explicit           # 👈 importante, FTPS explícito
+              port: 21
+              local-dir: ./dist                 # ajusta si tu build está en otra carpeta
+              server-dir: /                     # carpeta raíz en tu hosting
+              dangerous-clean-slate: false 
