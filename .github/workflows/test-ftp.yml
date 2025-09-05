@@ -17,6 +17,4 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: './'
-          server-dir: '/test-ftp/' # Carpeta temporal en tu hosting
-          dry-run: true # Solo prueba, no sube archivos
+          log-level: DEBUG
