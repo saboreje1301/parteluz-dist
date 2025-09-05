@@ -17,5 +17,6 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: '.output/public/'
+          local-dir: './dist/'  # Ajusta según tu proyecto
           server-dir: '/public_html/'
+          dry-run: true
