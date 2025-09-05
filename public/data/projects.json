@@ -1,0 +1,269 @@
+[
+  {
+    "id": "vinedossanlucas",
+    "image": "/img/vinedos/20200318.webp",
+    "imageset": "/img/vinedos/",
+    "images": [
+      "/img/vinedos/20200318.webp",
+      "/img/vinedos/20200318_114333.webp",
+      "/img/vinedos/20200624_111024.webp",
+      "/img/vinedos/20200714_121448.webp",
+      "/img/vinedos/IMG-20210430-WA0124.webp",
+      "/img/vinedos/IMG-20210611-WA0029.webp",
+      "/img/vinedos/IMG-20210611-WA0030.webp",
+      "/img/vinedos/IMG-20210804-WA0052.webp",
+      "/img/vinedos/IMG-20210804-WA0055.webp",
+      "/img/vinedos/IMG-20210804-WA0056.webp",
+      "/img/vinedos/IMG-20210804-WA0057.webp",
+      "/img/vinedos/IMG-20210804-WA0058.webp"
+    ],
+    "title": "Viñedos San Lucas",
+    "description": "Residencia de estilo toscando ubicado en viñedos San Lucas. El proyecto se desarrollo desde diseño hasta la construcción",
+    "category": "Casa Habitacional",
+    "year": 2018
+
+  },
+    {
+    "id": "casaguadiana",
+    "image": "/img/guadiana/101555.webp",
+    "imageset" : "/img/guadiana/",
+    "images" : [
+      "/img/guadiana/101555.webp",
+      "/img/guadiana/101918.webp",
+      "/img/guadiana/101947.webp",
+      "/img/guadiana/20171220_102041.webp",
+      "/img/guadiana/20171220_102130.webp",
+      "/img/guadiana/20171220_102326.webp",
+      "/img/guadiana/20171220_102337.webp",
+      "/img/guadiana/20171220_102353.webp",
+      "/img/guadiana/20171220_102407.webp",
+      "/img/guadiana/20171220_114955.webp",
+      "/img/guadiana/20171220_154238.webp",
+      "/img/guadiana/20171220_154404.webp",
+      "/img/guadiana/20171220_160216.webp"
+    ],
+    "title": "Casa Guadiana",
+    "description": "Diseño y construcción de casa habitación en Col. La Lenoja. Este proyecto cuenta con un estilo mexicano moderno que combina el uso de cantera, herreria y madera.",
+    "category": "Casa Habitacional",
+    "year": 2017
+  },
+    {
+    "id": "casadosaguas",
+    "image": "/img/dos_aguas/105919.webp",
+    "imageset" :"/img/dos_aguas/",
+    "images": [
+      "/img/dos_aguas/105919.webp",
+      "/img/dos_aguas/20180514_105357.webp",
+      "/img/dos_aguas/20180514_110338.webp",
+      "/img/dos_aguas/20180514_122901.webp",
+      "/img/dos_aguas/20180514_122944.webp",
+      "/img/dos_aguas/20180514_123013.webp",
+      "/img/dos_aguas/20180514_123102.webp",
+      "/img/dos_aguas/20180514_123241.webp",
+      "/img/dos_aguas/20180515_115420.webp",
+      "/img/dos_aguas/20180517_124809.webp",
+      "/img/dos_aguas/20180518_113826.webp",
+      "/img/dos_aguas/20180525_173635.webp"
+    ],
+    "title": "Casa Dos Aguas",
+    "description": "Este proyecto se desarrollo desde diseño hasta la construcción. Su estilo es moderno, usando elementos como el concreto expuesto, el metal, la madera y le vidrio. Maximizando la iluminación natural con sus losa invertidas descansadas sobre vigas de madera ",
+    "category": "Casa Habitacional",
+    "year": 2016
+  },
+    {
+    "id": "casiopea",
+    "image": "/img/casiopea/162932.webp",
+    "imageset": "/img/casiopea/",
+    "images": [
+      "/img/casiopea/162932.webp",
+      "/img/casiopea/105448.webp",
+      "/img/casiopea/20230523_132245.webp",
+      "/img/casiopea/20230531_134733.webp",
+      "/img/casiopea/20230531_134745.webp",
+      "/img/casiopea/20230531_134752.webp",
+      "/img/casiopea/20230531_134813.webp",
+      "/img/casiopea/20230602_115154.webp",
+      "/img/casiopea/20230609_121028.webp"
+    ],
+    "title": "Casiopea",
+    "description": "En este proyecto de casa habitación se realizó una renovación integral, modernizando los espacios y mejorando completando los acabados.",
+    "category": "Renovación",
+    "year": 2020
+  },
+  {
+    "id": "casathies",
+    "image": "/img/casathies/165755.webp",
+    "imageset": "/img/casa_thies/",
+    "images": [
+      "/img/casathies/165755.webp",
+      "/img/casathies/174224.webp",
+      "/img/casathies/174837.webp",
+      "/img/casathies/20191025_174000.webp",
+      "/img/casathies/20191025_183849.webp",
+      "/img/casathies/20191025_183950.webp",
+      "/img/casathies/IMG_0815.webp"
+    ],
+    "title": "Casa Thies",
+    "description": "Diseño y construcción. Su estilo se basa con una serie de obras que tienen un estilo moderno, con elementos como el concreto expuesto, el metal, la madera y el vidrio. Resalta su doble altura con el uso de madera color natural y sus piso de concreto",
+    "category": "Casa Habitacional",
+    "year": 2019
+  },
+    {
+    "id": "casaelmilagro",
+    "image": "/img/milagro36/WA0028.webp",
+    "imageset": "/img/milagro36/",
+    "images": [
+      "/img/milagro36/WA0028.webp",
+      "/img/milagro36/WA0012.webp",
+      "/img/milagro36/WA0029.webp",
+      "/img/milagro36/IMG-20210430-WA0057.webp",
+      "/img/milagro36/IMG-20210430-WA0059.webp"
+    ],
+    "title": "Ampliación el Milagro",
+    "description": "En este proyecto se ampliaron y renovaron los espacios en planta alta, extendiendo un area para un sala de TV, pergolados y barras de asador en terraza",
+    "category": "Ampliación",
+    "year": 2021
+  },
+    {
+    "id": "cocinapirules",
+    "image": "/img/cocinapirules/102448.webp",
+    "imageset": "/img/cocinapirules/",
+    "images": [
+      "/img/cocinapirules/102448.webp",
+      "/img/cocinapirules/20161126_102502.webp",
+      "/img/cocinapirules/20161126_102516.webp",
+      "/img/cocinapirules/20161126_102526.webp",
+      "/img/cocinapirules/20161126_102544.webp",
+      "/img/cocinapirules/20161126_102558.webp",
+      "/img/cocinapirules/20180226_133613.webp",
+      "/img/cocinapirules/20180226_133620.webp",
+      "/img/cocinapirules/20180226_133625.webp",
+      "/img/cocinapirules/20180226_133629.webp",
+      "/img/cocinapirules/20180226_133644.webp",
+      "/img/cocinapirules/20180226_133741.webp"
+    ],
+    "title": "Cocina Pirules",
+    "description": "Diseño y construcción de cocina de los pirules en San Miguel de Allende",
+    "category": "Comercial",
+    "year": 2016
+  },
+    {
+    "id": "casacinco",
+    "image": "/img/casacinco/142536.webp",
+    "imageset": "/img/casacinco/",
+    "images": [
+      "/img/casacinco/142536.webp",
+      "/img/casacinco/8068571.webp",
+      "/img/casacinco/20210611_142330.webp",
+      "/img/casacinco/20210611_142834.webp",
+      "/img/casacinco/20210611_143016.webp",
+      "/img/casacinco/20210611_143025.webp",
+      "/img/casacinco/20210611_143043.webp",
+      "/img/casacinco/20210611_143057.webp"
+    ],
+    "title": "Casa Cinco",
+    "description": "Para este proyecto se renovaron espacios interiores y exteriores, mejorando la funcionalidad y estética de la vivienda.",
+    "category": "Remodelación",
+    "year": 2021
+  },
+    {
+    "id": "sendafracc7",
+    "image": "/img/sendafracc/135158.webp",
+    "imageset": "/img/senda_fracc7/",
+    "images": [
+      "/img/sendafracc/135158.webp",
+      "/img/sendafracc/135134.webp",
+      "/img/sendafracc/20210823_135406.webp",
+      "/img/sendafracc/20210823_135852.webp",
+      "/img/sendafracc/20210823_140141.webp",
+      "/img/sendafracc/20210823_140354.webp",
+      "/img/sendafracc/20210823_140407.webp",
+      "/img/sendafracc/20210823_140458.webp",
+      "/img/sendafracc/20210823_141014.webp",
+      "/img/sendafracc/20210823_141240.webp"
+    ],
+    "title": "Senda San Miguel",
+    "description": "Construcción de casa habitación en fraccionamiento.",
+    "category": "Casa Habitacional",
+    "year": 2018
+  },
+
+  {"id": "casa_6",
+  "image": "/img/casa_6/CasaHC4.webp",
+  "imageset": "/img/casa_6/",
+  "images" : [
+    "/img/casa_6/CasaHC4.webp",
+    "/img/casa_6/CasaHC2.webp",
+    "/img/casa_6/CasaHC5.webp",
+    "/img/casa_6/CasaHC6.webp",
+    "/img/casa_6/CasaHC7.webp",
+    "/img/casa_6/CasaHC8.webp",
+    "/img/casa_6/CasaHC9.webp",
+    "/img/casa_6/CasaHC10.webp",
+    "/img/casa_6/CasaHC11.webp",
+    "/img/casa_6/CasaHC12.webp",
+    "/img/casa_6/CasaHC13.webp"
+  ],
+  "title": "Casa 6",
+  "description": "Ampliación de casa habitación donde se maximizaron los espacios y se mejoró la distribución interior, al igual que se ampliaron áreas.",
+  "category": "Remodelación",
+  "year": 2016
+  },
+
+  {"id": "casa_12",
+  "image": "/img/casa_12/IMG-20180925-WA0020.webp",
+  "imageset": "/img/casa_12/",
+  "images": [
+    "/img/casa_12/IMG-20180925-WA0019.webp",
+    "/img/casa_12/IMG-20180925-WA0020.webp",
+    "/img/casa_12/IMG-20180925-WA0029.webp",
+    "/img/casa_12/IMG-20180925-WA0030.webp",
+    "/img/casa_12/IMG-20180925-WA0031.webp",
+    "/img/casa_12/IMG-20180925-WA0032.webp",
+    "/img/casa_12/IMG-20180925-WA0033.webp",
+    "/img/casa_12/IMG-20180925-WA0034.webp",
+    "/img/casa_12/IMG-20180925-WA0036.webp",
+    "/img/casa_12/IMG-20180925-WA0037.webp",
+    "/img/casa_12/IMG-20180925-WA0041.webp",
+    "/img/casa_12/IMG-20180925-WA0045.webp",
+    "/img/casa_12/IMG-20180925-WA0052.webp",
+    "/img/casa_12/IMG-20180926-WA0001.webp",
+    "/img/casa_12/IMG-20180926-WA0002.webp",
+    "/img/casa_12/IMG-20180926-WA0005.webp",
+    "/img/casa_12/IMG-20180926-WA0008.webp",
+    "/img/casa_12/IMG-20180926-WA0010.webp"
+  ],
+  "title": "Casa 12",
+  "description": "Diseño y construcción de una ampliación de un sotano. Siendo este un reto tecnico debido a la complejidad estructural del proyecto para lograr la amplicación de sotano sin comprometer la estabilidad de la estructura existente.",
+  "category": "Remodelación",
+  "year": 2018
+  },
+
+  {"id": "casa_espejo",
+  "image": "/img/casa_espejo/IMG-20181105-WA0040.webp",
+  "imageset": "/img/casa_espejo/",
+  "images": [
+    "/img/casa_espejo/IMG-20181105-WA0040.webp",
+    "/img/casa_espejo/IMG-20181105-WA0042.webp",
+    "/img/casa_espejo/IMG-20181105-WA0043.webp",
+    "/img/casa_espejo/IMG-20181105-WA0044.webp",
+    "/img/casa_espejo/IMG-20181105-WA0045.webp",
+    "/img/casa_espejo/IMG-20181105-WA0049.webp",
+    "/img/casa_espejo/IMG-20181105-WA0056.webp",
+    "/img/casa_espejo/IMG-20181105-WA0058.webp",
+    "/img/casa_espejo/IMG-20181105-WA0059.webp",
+    "/img/casa_espejo/IMG-20181105-WA0067.webp",
+    "/img/casa_espejo/IMG-20181105-WA0070.webp",
+    "/img/casa_espejo/IMG-20181105-WA0071.webp",
+    "/img/casa_espejo/IMG-20181105-WA0072.webp",
+    "/img/casa_espejo/IMG-20181105-WA0075.webp",
+    "/img/casa_espejo/IMG-20181105-WA0079.webp",
+    "/img/casa_espejo/IMG-20181105-WA0080.webp"
+  ],
+  "title": "Casa Espejo",
+  "description": "Diseño y construcción. Su estilo se basa con una serie de obras que tienen un estilo moderno, con elementos como el concreto expuesto, el metal, la madera y el vidrio. Con escaleras de con huellas de concreto y peraltes de cristal templado que generan un juego de luces y sombras en el interior.",
+  "category": "Casa Habitacional",
+  "year": 2018
+}
+
+]

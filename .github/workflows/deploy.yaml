@@ -1,0 +1,35 @@
+name: Deploy to Hostgator
+
+on:
+  push:
+    branches:
+      - main   # o la rama que uses para producción
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Nuxt app
+        run: npm run build
+
+      # 📂 Subir los archivos via FTP
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.CPANEL_HOST }}
+          username: ${{ secrets.CPANEL_USER }}
+          password: ${{ secrets.CPANEL_PASS }}
+          local-dir: .output/public
+          server-dir: ${{ secrets.CPANEL_PATH }}
