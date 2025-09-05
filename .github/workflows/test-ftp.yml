@@ -1,0 +1,22 @@
+name: 🔌 Test FTP Connection
+
+on:
+  workflow_dispatch: # Esto permite correrlo manualmente desde GitHub
+
+jobs:
+  ftp-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🚚 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🔧 Test FTP connection
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: './'
+          server-dir: '/test-ftp/' # Carpeta temporal en tu hosting
+          dry-run: true # Solo prueba, no sube archivos
