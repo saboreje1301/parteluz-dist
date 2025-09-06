@@ -15,7 +15,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ftp.parteluzarquitectura.com   # 🔹 Cambia por tu servidor FTP real
-          username: rsalgado@parteluzarquitectura.com     # 🔹 Cambia por tu usuario FTP
+          username: rsalgado     # 🔹 Cambia por tu usuario FTP
           password: Rs82821301+    # 🔹 Cambia por tu contraseña FTP
           local-dir: './'           # Carpeta local (cualquiera, para probar)
           server-dir: '/public_html/'  # Carpeta de prueba en tu hosting
