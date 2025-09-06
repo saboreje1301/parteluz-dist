@@ -21,7 +21,7 @@
       </p>
 </div>
     </div>
-          <nuxt-img
+          <img
             src="/img/113203.webp"
             alt="Trabajo en Proceso 1 de Parteluz Arquitectura"
             class="rounded-lg shadow-md filter grayscale hover:grayscale-0 transition-all duration-500"

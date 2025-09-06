@@ -4,7 +4,7 @@
     "title": "Diseño Arquitectónico",
     "description": "Creamos espacios únicos que equilibran estética, funcionalidad y sostenibilidad para tu hogar o negocio.",
     "icon": "lucide:layout-dashboard",
-    "image": "/img/vistaseccion.webp",
+    "image": "/img/aux/vistaseccion.webp",
     "alt": "Diseño Arquitectónico en San Miguel de Allende"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Construcción",
     "description": "Construimos residencias y espacios comerciales personalizados, cuidando cada detalle y calidad.",
     "icon": "lucide:home",
-    "image": "/img/serv_const_1.webp",
+    "image": "/img/aux/serv_const_1.webp",
     "alt": "Construcción de calidad en San Miguel de Allende"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Remodelación",
     "description": "Transformamos y renovamos tus espacios para adaptarlos a tus nuevas necesidades y estilos.",
     "icon": "lucide:hammer",
-    "image": "/img/serv_remod.webp",
+    "image": "/img/aux/serv_remod.webp",
     "alt": "Remodelación de espacios en San Miguel de Allende"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Albercas y Pergolados",
     "description": "Diseñamos y construimos albercas y pergolados que realzan la belleza y funcionalidad de tu entorno.",
     "icon": "lucide:waves",
-    "image": "/img/serv_alberca.webp",
+    "image": "/img/aux/serv_alberca.webp",
     "alt": "Albercas y pergolados en San Miguel de Allende"
   }
 ]
