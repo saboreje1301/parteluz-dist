@@ -17,7 +17,7 @@ jobs:
       - name: 🛠️ Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # usa la misma versión que en tu máquina local
+          node-version: '20.18.3' # usa la misma versión que en tu máquina local
 
       - name: 📦 Install dependencies
         run: npm install
@@ -36,8 +36,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: './.output/public/'
           server-dir: '/public_html/'
-          exclude: |
-            .git/
-            .github/
-            .venv/
           dry-run: false
