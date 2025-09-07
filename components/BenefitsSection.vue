@@ -2,7 +2,7 @@
   <section class="relative py-20 bg-gray-100">
     <div
       class="absolute inset-0 bg-cover bg-center opacity-85"
-      style="background-image: url('/img/20210611_142834.webp')"></div>
+      style="background-image: url('/img/aux/20210611_142834.webp')"></div>
     <div class="relative max-w-7xl mx-auto px-4 text-center">
       <h2 class="text-4xl font-bold mb-6 text-white">
         Arquitectos en San Miguel de Allende: Por qué elegirnos
