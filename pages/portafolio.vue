@@ -16,8 +16,7 @@ useHead({
       <NavigationBar></NavigationBar>
   <ProjectGridComponent></ProjectGridComponent>
   <AppFooter></AppFooter>
-    <NuxtPage> </NuxtPage>
-     <WhatsApp></WhatsApp>
+  <WhatsApp></WhatsApp>
     
 
 </template>

@@ -24,6 +24,8 @@ useHead({
 
 
 
+
+
 <template>
 
 
@@ -44,10 +46,9 @@ useHead({
     <ProcessSection></ProcessSection>
     <BlogSection></BlogSection>
     <FinalCTASection></FinalCTASection>
-    <WhatsApp></WhatsApp>
     <AppFooter></AppFooter>
-
-
+    <WhatsApp></WhatsApp>
+    
 </template>
 
 <style scoped></style>

@@ -15,7 +15,7 @@ useHead({
 <template>
 <NavigationBar></NavigationBar>
 <ContactSection></ContactSection>
- <WhatsApp></WhatsApp>
+<WhatsApp></WhatsApp>
 <AppFooter></AppFooter>
 
 </template>

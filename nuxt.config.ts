@@ -6,14 +6,28 @@ export default defineNuxtConfig({
     head: {
       htmlAttrs: {
         lang: 'es'
+      },
+      script: [
+        {
+          hid: 'gtm-script',
+          innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-NBL8L2CS');`,
+          type: 'text/javascript'
+        }
+      ],
+      __dangerouslyDisableSanitizersByTagID: {
+        'gtm-script': ['innerHTML']
       }
     }
   },
   ssr: false,
   nitro: {
     prerender: {
-      crawlLinks: true, // Esto ayuda a Nuxt a encontrar todas las rutas estáticas
-      routes: ['/'] // Rutas a prerenderizar si no se encuentran automáticamente
+      crawlLinks: true,
+      routes: ['/']
     }
   },
   compatibilityDate: "2024-11-01",
@@ -22,6 +36,7 @@ export default defineNuxtConfig({
   vite: {
     plugins: [
       tailwindcss(),
+      Icons()
     ],
   },
   modules: ['@nuxt/image'],

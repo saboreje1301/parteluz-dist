@@ -1,4 +1,3 @@
-// src/components/AppFooter.vue
 <template>
   <footer class="bg-gray-900 text-gray-300 py-12 mt-20">
     <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -29,14 +28,17 @@
       <div>
         <h4 class="text-white font-semibold mb-3">Redes sociales</h4>
         <div className="flex space-x-4">
-          <SocialLinks></SocialLinks>
+          <SocialLinks />
         </div>
       </div>
     </div>
 
-    <div class="mt-12 border-t border-gray-700 pt-6 text-center text-sm">
-      © 2025 Parteluz Arquitectura. Todos los derechos reservados.
-    </div>
+<div class="mt-12 border-t border-gray-700 pt-6 text-center text-sm">
+  © 2025 Parteluz Arquitectura. Todos los derechos reservados.
+  <span class="mx-2">|</span>
+  <NuxtLink to="/privacidad" class="underline hover:text-white">Política de Privacidad</NuxtLink>
+</div>
+<WhatsApp></WhatsApp>
   </footer>
 </template>
 
