@@ -1,14 +1,13 @@
 <script setup lang="ts">
 useHead({
-  title: 'Arquitectos en San Miguel de Allende | ParteLuz Arquitectura',
+  title: 'Arquitecto en San Miguel de Allende',
   meta: [
     {
       name: 'description',
-      content: 'ParteLuz Arquitectura: despacho de arquitectos en San Miguel de Allende. Expertos en diseño contemporáneo, restauración colonial y construcción de casas de lujo.'
+      content: 'Expertos en diseño contemporáneo, restauración colonial y construcción de casas de lujo en San Miguel de Allende.'
     },
-    { name: 'robots', content: 'index, follow' },
-    { property: 'og:title', content: 'Arquitectos en San Miguel de Allende | ParteLuz' },
-    { property: 'og:description', content: 'Estudio de arquitectura en San Miguel de Allende. Diseño, construcción y remodelación de espacios únicos.' },
+    { property: 'og:title', content: 'Arquitecto en San Miguel de Allende | ParteLuz' },
+    { property: 'og:description', content: 'Diseño, construcción y remodelación de espacios únicos. Estudio de arquitectura en San Miguel de Allende.' },
     { property: 'og:image', content: '/img/og-image.webp' },
     { property: 'og:url', content: 'https://www.parteluzarquitectura.com' },
     { property: 'og:type', content: 'website' },

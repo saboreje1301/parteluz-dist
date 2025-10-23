@@ -7,6 +7,12 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'es'
       },
+    
+    meta: [
+        // ⭐ AÑADIDO: Etiqueta de verificación de Pinterest
+        { name: 'p:domain_verify', content: '9fa6020281f13e0ac58df749fac3703f' },
+        { name: 'robots', content: 'index, follow' },
+          ],  
       script: [
 {
           src: 'https://www.googletagmanager.com/gtag/js?id=AW-17480765580',
@@ -18,6 +24,7 @@ export default defineNuxtConfig({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+            gtag('config', 'G-ETW6HE2L72');
             gtag('config', 'AW-17480765580');
           `,
           type: 'text/javascript'
