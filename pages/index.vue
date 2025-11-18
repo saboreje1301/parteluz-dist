@@ -1,35 +1,61 @@
 <script setup lang="ts">
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  // Debug log para confirmar que la página index se monta correctamente
+  console.log('[debug] index.vue mounted')
+})
 useHead({
-  title: 'Arquitecto en San Miguel de Allende',
+  title: 'Arquitecto en San Miguel de Allende | Diseño, Construcción y Lujo | ParteLuz',
+  
   meta: [
     {
       name: 'description',
-      content: 'Expertos en diseño contemporáneo, restauración colonial y construcción de casas de lujo en San Miguel de Allende.'
+      content: 'Expertos en diseño contemporáneo, restauración colonial y construcción de casas de lujo en San Miguel de Allende. ¡Comienza tu proyecto de arquitectura único hoy mismo!'
     },
-    { property: 'og:title', content: 'Arquitecto en San Miguel de Allende | ParteLuz' },
-    { property: 'og:description', content: 'Diseño, construcción y remodelación de espacios únicos. Estudio de arquitectura en San Miguel de Allende.' },
-    { property: 'og:image', content: '/img/og-image.webp' },
+    
+    // 2. Open Graph Title (Para Redes Sociales/Compartir)
+    { property: 'og:title', content: 'Arquitecto en San Miguel de Allende | Diseño, Construcción y Lujo | ParteLuz' },
+    
+    // 3. Open Graph Description (Para Redes Sociales)
+    { property: 'og:description', content: 'Expertos en diseño contemporáneo, restauración colonial y construcción de casas de lujo en San Miguel de Allende. ¡Comienza tu proyecto de arquitectura único hoy mismo!' },
+    
+    // 4. Open Graph Image: Se usa URL Absoluta
+    { property: 'og:image', content: 'https://www.parteluzarquitectura.com/img/og-image.webp' }, 
+    
     { property: 'og:url', content: 'https://www.parteluzarquitectura.com' },
     { property: 'og:type', content: 'website' },
-    { name: 'twitter:card', content: 'summary_large_image' }
+    { name: 'twitter:card', content: 'summary_large_image' } 
   ],
+  
   link: [
     { rel: 'canonical', href: 'https://www.parteluzarquitectura.com' },
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+  ],
+  
+  script: [
+    ( {
+      type: 'application/ld+json',
+      // Convertimos el objeto JSON a una cadena de texto para que useHead lo inyecte
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        // **Recomendación:** Usar LocalBusiness en lugar de ArchitecturalDesign para mejor SEO local.
+        "@type": "LocalBusiness", 
+        "name": "ParteLuz Arquitectura",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "San Miguel de Allende",
+          "addressRegion": "Guanajuato",
+          "addressCountry": "MX"
+        }
+      })
+    } as any)
   ]
 })
 </script>
 
-
 <template>
 
-  <NavigationBar
-    :links="[
-      { id: 'index', label: 'Index' },
-      { id: 'about', label: 'About' },
-      { id: 'contact', label: 'Contact' }
-    ]">
-    </NavigationBar>
     <HeroSection> </HeroSection>
     <AboutSection></AboutSection>
     <BenefitsSection> </BenefitsSection>
@@ -63,8 +89,6 @@ useHead({
   </div>
 </section>
 
-    <AppFooter></AppFooter>
-    <WhatsApp></WhatsApp>
     
 </template>
 

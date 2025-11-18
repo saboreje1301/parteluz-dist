@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 useHead({
-  title: 'Proyectos | Parteluz Arquitectura',
+  title: 'Portafolio: Proyectos de Arquitectura y Construcción en San Miguel de Allende',
   meta: [
-    { name: 'description', content: 'Explora algunos de nuestros proyectos arquitectónicos realizados en San Miguel de Allende y alrededores.' },
+    { name: 'description', content: 'Explora nuestro portafolio de proyectos de arquitectura en San Miguel de Allende: casas de alta calidad, restauración colonial y remodelaciones exitosas.' },
     { name: 'robots', content: 'index, follow' },
     { property: 'og:title', content: 'Proyectos | Parteluz Arquitectura' },
     { property: 'og:description', content: 'Galería de proyectos de arquitectura y construcción realizados por Parteluz.' },
@@ -13,10 +13,9 @@ useHead({
 </script>
 
 <template>
-      <NavigationBar></NavigationBar>
+
   <ProjectGridComponent></ProjectGridComponent>
-  <AppFooter></AppFooter>
-  <WhatsApp></WhatsApp>
+  
     
 
 </template>

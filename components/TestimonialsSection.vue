@@ -2,7 +2,7 @@
   <section class="bg-gray-50 py-20">
     <div class="max-w-5xl mx-auto px-4 text-center">
       <h2 class="text-4xl font-bold mb-6">
-        Lo que dicen nuestros clientes sobre ParteLuz Arquitectura en San Miguel de Allende
+        Testimonios: Clientes Satisfechos con ParteLuz en San Miguel de Allende
       </h2>
       <p class="text-lg text-gray-700 mb-10">
         Nuestros clientes confían en nosotros para crear casas de lujo, remodelaciones y proyectos residenciales únicos en San Miguel de Allende.
@@ -27,6 +27,3 @@
     </div>
   </section>
 </template>
-
-<script setup>
-</script>

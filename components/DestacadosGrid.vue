@@ -4,7 +4,7 @@
       Proyectos de Arquitectura en San Miguel de Allende
     </h2>
     <p class="text-center text-lg text-gray-700 mb-12">
-      Descubre algunos de nuestros proyectos más representativos: casas de lujo, remodelaciones y diseño residencial y comercial en San Miguel de Allende. Cada proyecto refleja la esencia de nuestros clientes y la creatividad de nuestro estudio de arquitectura.
+      Descubre cómo la creatividad de nuestro estudio de arquitectura materializa la visión de nuestros clientes, transformando espacios en arte funcional.
     </p>
 
     <div class="grid md:grid-cols-3 gap-8">

@@ -34,7 +34,7 @@
         </form>
   
         <div class="text-center mt-12 text-gray-500">
-          También puedes escribirnos directamente a <a href="mailto:contacto@parteluz.mx" class="text-black font-medium hover:underline">contacto@parteluz.mx</a>
+          También puedes escribirnos directamente a <a href="mailto:contacto@parteluz.mx" class="text-black font-medium hover:underline">contacto@parteluzarquitectura.com</a>
         </div>
       </div>
     </section>

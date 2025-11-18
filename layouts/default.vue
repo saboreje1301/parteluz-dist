@@ -1,15 +1,25 @@
 <script setup lang="ts">
-const route = useRoute()
-
+// Layout script: no client-side logic required here for now.
 </script>
 
 <template>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBL8L2CS"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
+      <NavigationBar
+    :links="[
+      { id: 'index', label: 'Inicio' },           
+      { id: 'servicios', label: 'Servicios' },    
+      { id: 'proyectos', label: 'Portafolio' },   
+      { id: 'about', label: 'Nosotros' },         
+      { id: 'contacto', label: 'Contacto' }       
+    ]">
+            </NavigationBar>
+
+            <!-- Aquí se renderiza el contenido de la página -->
+            <slot />
+
+            <AppFooter />
+            <WhatsApp />
 
 
 </template>

@@ -1,35 +1,34 @@
 [
   {
     "id": "diseno-arquitectonico",
-    "title": "Diseño Arquitectónico",
-    "description": "Creamos espacios únicos que equilibran estética, funcionalidad y sostenibilidad para tu hogar o negocio.",
+    "title": "Diseño Arquitectónico de Casas de Alta Calidad",
+    "description": "Creamos planos y diseños arquitectónicos exclusivos para residencias de alta calidad y proyectos comerciales. Equilibrio perfecto entre estética, funcionalidad y normativas en Guanajuato.",
     "icon": "lucide:layout-dashboard",
     "image": "/img/aux/vistaseccion.webp",
-    "alt": "Diseño Arquitectónico en San Miguel de Allende"
+    "alt": "Diseño Arquitectónico para residencias de alta calidad en San Miguel de Allende"
   },
   {
     "id": "construccion",
-    "title": "Construcción",
-    "description": "Construimos residencias y espacios comerciales personalizados, cuidando cada detalle y calidad.",
+    "title": "Construcción Residencial de Alta Calidad",
+    "description": "Servicio integral de construcción de residencias de alta calidad con enfoque en la excelencia, materiales premium y acabados detallados. Entregamos proyectos llave en mano en San Miguel de Allende.",
     "icon": "lucide:home",
     "image": "/img/aux/serv_const_1.webp",
-    "alt": "Construcción de calidad en San Miguel de Allende"
+    "alt": "Construcción de casas de alta calidad, servicio llave en mano en SMA"
   },
   {
-    "id": "Remodelacion",
-    "title": "Remodelación",
-    "description": "Transformamos y renovamos tus espacios para adaptarlos a tus nuevas necesidades y estilos.",
+    "id": "remodelacion",
+    "title": "Remodelaciones y Restauración Histórica",
+    "description": "Especialistas en remodelación de interiores y restauración de fincas coloniales. Renovamos espacios para adaptarlos a un estilo de vida sofisticado, manteniendo el valor histórico de SMA.",
     "icon": "lucide:hammer",
     "image": "/img/aux/serv_remod.webp",
-    "alt": "Remodelación de espacios en San Miguel de Allende"
+    "alt": "Remodelación integral y restauración colonial de alta calidad en San Miguel de Allende"
   },
   {
-    "id": "Albercas-pergolados",
-    "title": "Albercas y Pergolados",
-    "description": "Diseñamos y construimos albercas y pergolados que realzan la belleza y funcionalidad de tu entorno.",
+    "id": "albercas-exteriores",
+    "title": "Diseño de Albercas y Jardines Exclusivos",
+    "description": "Diseñamos y construimos albercas personalizadas, pérgolas y áreas de entretenimiento que elevan el valor estético y la funcionalidad de tu residencia exterior de alta calidad.",
     "icon": "lucide:waves",
     "image": "/img/aux/serv_alberca.webp",
-    "alt": "Albercas y pergolados en San Miguel de Allende"
+    "alt": "Diseño y construcción de albercas y áreas de convivencia exterior de alta calidad en SMA"
   }
 ]
-  

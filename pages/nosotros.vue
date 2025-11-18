@@ -1,12 +1,10 @@
 <script setup lang="ts">
 useHead({
-  title: 'Sobre Nosotros | Parteluz Arquitectura',
+  title: 'Nosotros: Firma de Arquitectos con Experiencia en San Miguel de Allende',
   meta: [
-    { name: 'description', content: 'Conoce al equipo de Parteluz Arquitectura y nuestra filosofía de diseño en San Miguel de Allende.' },
+    { name: 'description', content: 'Conoce la trayectoria de ParteLuz Arquitectura. Somos un equipo de constructores y arquitectos dedicados al diseño de alta calidad y la restauración colonial en SMA.' },
     { name: 'robots', content: 'index, follow' },
     { property: 'og:title', content: 'Sobre Nosotros | Parteluz Arquitectura' },
-    { property: 'og:description', content: 'Descubre quiénes somos y cómo creamos espacios únicos en San Miguel de Allende.' },
-    { property: 'og:image', content: '/img/IMG-20210430.webp' },
     { property: 'og:type', content: 'website' }
   ]
 })
@@ -14,10 +12,8 @@ useHead({
 </script>
 
 <template>
-  <NavigationBar></NavigationBar>
   <IntroSection></IntroSection>
-  <WhatsApp></WhatsApp>
-  <AppFooter></AppFooter>
+
 
 </template>
 
