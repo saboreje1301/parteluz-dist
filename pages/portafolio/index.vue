@@ -14,8 +14,6 @@ useHead({
 
 <template>
 
-  <ProjectGridComponent></ProjectGridComponent>
-  
-    
+<ProjectGridComponent></ProjectGridComponent>
 
 </template>

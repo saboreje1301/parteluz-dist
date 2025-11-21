@@ -1,8 +1,8 @@
 <template>
   <div class="bg-white rounded-lg shadow-md p-4">
     
-    <!-- Interceptar el click para capturar errores de navegación y logear el id -->
-    <NuxtLink :to="`/portafolio/${id}`" @click.prevent="go">
+    <!-- Usar NuxtLink nativo; no prevenir el click para evitar bloquear la navegación SPA -->
+    <NuxtLink :to="`/portafolio/${id}`">
       <img
         :src="image"
         :alt="alt"
@@ -17,25 +17,15 @@
 </template>
 
 <script setup>
-// Ensure this remains clean
 const props = defineProps({
-  id: String,
+  id: [String, Number],
   title: String,
   image: String,
   alt: String,
   description: String,
   category: String,
-  year: Number
+  year: [String, Number]
 });
-
-import { useRouter } from 'vue-router'
-const router = useRouter()
-
-function go (e) {
-  router.push(`/portafolio/${props.id}`).catch(err => {
-    try { alert('Error al navegar: ' + (err && err.message ? err.message : String(err))) } catch (_) {}
-  })
-}
 </script>
 
 

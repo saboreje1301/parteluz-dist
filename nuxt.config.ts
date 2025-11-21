@@ -30,6 +30,11 @@ export default defineNuxtConfig({
         { property: 'og:url', content: 'https://tusitioweb.com/' }, // Reemplazar con tu URL real
         
       ],
+      link: [
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preload', as: 'image', href: '/img/aux/20171220_154404.webp' }
+      ],
       
       script: [
 
@@ -83,6 +88,8 @@ export default defineNuxtConfig({
       { headers: { 
         'Cache-Control': 'public, max-age=31536000, immutable' } 
       }
+      ,
+      '/img/**': { headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } }
     },
     prerender: {
       crawlLinks: true,
@@ -103,7 +110,30 @@ export default defineNuxtConfig({
     families: {
       'Roboto': true,
       'Playfair Display': [400, 700]
+    },
+    display: 'swap'
+  },
+
+  // Image optimization (ipx) + presets
+  image: {
+    provider: 'ipx',
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+      xxl: 1600
+    },
+    presets: {
+      hero: {
+        modifiers: {
+          width: 1600,
+          quality: 80,
+          format: 'webp'
+        }
+      }
     }
-}
+  },
 }
 );

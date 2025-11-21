@@ -6,19 +6,19 @@ onMounted(() => {
   console.log('[debug] index.vue mounted')
 })
 useHead({
-  title: 'Arquitecto en San Miguel de Allende | Diseño, Construcción y Lujo | ParteLuz',
+  title: 'Arquitectos en San Miguel de Allende | ParteLuz Arquitectura - Diseño y Construcción',
   
   meta: [
     {
       name: 'description',
-      content: 'Expertos en diseño contemporáneo, restauración colonial y construcción de casas de lujo en San Miguel de Allende. ¡Comienza tu proyecto de arquitectura único hoy mismo!'
+      content: 'Estudio de arquitectura en San Miguel de Allende. Diseñamos y construimos casas de lujo, restauración colonial y proyectos contemporáneos. +15 años de experiencia en SMA.'
     },
     
     // 2. Open Graph Title (Para Redes Sociales/Compartir)
-    { property: 'og:title', content: 'Arquitecto en San Miguel de Allende | Diseño, Construcción y Lujo | ParteLuz' },
+    { property: 'og:title', content: 'Arquitectos en San Miguel de Allende | ParteLuz Arquitectura - Diseño y Construcción' },
     
     // 3. Open Graph Description (Para Redes Sociales)
-    { property: 'og:description', content: 'Expertos en diseño contemporáneo, restauración colonial y construcción de casas de lujo en San Miguel de Allende. ¡Comienza tu proyecto de arquitectura único hoy mismo!' },
+    { property: 'og:description', content: 'Estudio de arquitectura en San Miguel de Allende. Diseñamos y construimos casas de lujo, restauración colonial y proyectos contemporáneos. +15 años de experiencia en SMA.' },
     
     // 4. Open Graph Image: Se usa URL Absoluta
     { property: 'og:image', content: 'https://www.parteluzarquitectura.com/img/og-image.webp' }, 
@@ -40,14 +40,94 @@ useHead({
       innerHTML: JSON.stringify({
         "@context": "https://schema.org",
         // **Recomendación:** Usar LocalBusiness en lugar de ArchitecturalDesign para mejor SEO local.
-        "@type": "LocalBusiness", 
+        "@type": "Architect", 
         "name": "ParteLuz Arquitectura",
+        "image": "https://www.parteluzarquitectura.com/img/og-image.webp",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "San Miguel de Allende",
           "addressRegion": "Guanajuato",
           "addressCountry": "MX"
-        }
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "20.914992",
+          "longitude": "-100.743030"
+        },
+        "url": "https://www.parteluzarquitectura.com",
+        "telephone": "+524151451007",
+        "areaServed": "San Miguel de Allende, Queretaro, Guanajuato",
+        "priceRange": "$$$",
+        "sameAs": [
+          "https://www.facebook.com/parteluzarquitectura",
+          "https://www.instagram.com/parteluzarquitectura",
+          "https://www.pinterest.com/parteluzarquitectura",
+          "https://www.linkedin.com/company/parteluz-arquitectura"
+        ],
+        "foundingDate": "2011",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "47"
+        },
+        "description": "Estudio de arquitectura en San Miguel de Allende. Diseñamos y construimos casas de lujo, restauración colonial y proyectos contemporáneos. +15 años de experiencia en SMA.",
+        "keywords": "arquitectos en san miguel de allende, estudio de arquitectura san miguel de allende, diseño arquitectonico sma, construccion de casas de lujo sma, restauracion colonial san miguel de allende, arquitectos residenciales sma, proyectos arquitectonicos san miguel de allende",
+        "email": "info@parteluzarquitectura.com",
+        "founders": [
+          {
+            "@type": "Person",
+            "name": "Rene Salgado"
+          }
+        ],
+        "brand": {
+          "@type": "Brand",
+          "name": "ParteLuz Arquitectura",
+          "logo": "https://www.parteluzarquitectura.com/img/og-image.webp"
+        },
+        "serviceArea": {
+          "@type": "Place",
+          "geo": {
+            "@type": "GeoShape",
+            "box": "20.7840 -101.0000 21.0500 -100.6000"
+          }
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Servicios de Arquitectura",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Diseño Arquitectónico Residencial"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Restauración y Remodelación Colonial"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Construcción de Casas de Lujo"
+              }
+            }
+          ]
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.parteluzarquitectura.com/search?query={search_term_string}",
+          "query-input": "required name=search_term_string"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.parteluzarquitectura.com"
+        },
+        "logo": "https://www.parteluzarquitectura.com/img/og-image.webp"        
       })
     } as any)
   ]

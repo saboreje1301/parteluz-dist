@@ -1,55 +1,63 @@
 <template>
-  <section id="proyectos" class="py-20 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-4">
-      
-      <h2 class="text-4xl font-extrabold text-gray-900 mb-12 text-center">Nuestro Portafolio</h2>
+  <section id="proyecto-detalle" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <div v-if="pending" class="text-center p-8 text-gray-500">Cargando proyecto...</div>
 
-      <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-        
-        <CardComponent 
-          v-for="project in projects" 
-          :key="project.id"
-          :id="project.id"
-          :title="project.title"
-          :image="project.image"
-          :alt="project.alt" 
-          :description="project.description"
-          :images="project.images"
-          :category="project.category"
-          :year="project.year"
-        />
+      <div v-else-if="error" class="text-center p-8 text-red-600">Error al cargar los proyectos.</div>
 
+      <div v-else-if="!project">
+        <div class="text-center py-20">
+          <h2 class="text-2xl font-bold mb-4">Proyecto no encontrado</h2>
+          <p class="text-gray-600 mb-6">No encontramos el proyecto que buscas. Puedes volver al portafolio para ver la lista completa.</p>
+          <NuxtLink to="/portafolio" class="px-6 py-3 bg-gray-800 text-white rounded-lg">Volver al portafolio</NuxtLink>
+        </div>
       </div>
-      
-      <div v-if="pending" class="text-center p-8 text-gray-500">
-        <p>Cargando proyectos...</p>
-      </div>
-      <div v-else-if="error" class="text-center p-8 text-red-600">
-        <p>Error al cargar los proyectos. Por favor, revisa la ruta del archivo JSON.</p>
-      </div>
-      <div v-else-if="!projects || projects.length === 0" class="text-center p-8 text-gray-500">
-        <p>No hay proyectos disponibles en este momento.</p>
-      </div>
+
+      <article v-else class="prose mx-auto">
+        <NuxtLink to="/portafolio" class="text-sm text-primary hover:underline">← Volver al portafolio</NuxtLink>
+        <h1 class="text-3xl font-extrabold mt-4">{{ project.title }}</h1>
+        <p class="text-sm text-gray-500">{{ project.category }} — {{ project.year }}</p>
+
+
+
+        <section class="mt-6">
+          <h2 class="text-xl font-semibold">Descripción</h2>
+          <p class="text-gray-700">{{ project.description }}</p>
+        </section>
+
+        <section v-if="project.images && project.images.length" class="mt-6">
+          <h3 class="font-semibold">Imágenes del proyecto</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+            <NuxtImg v-for="(img, i) in project.images" :key="i" :src="img" :alt="project.title + ' imagen ' + (i+1)" class="w-full h-48 object-cover rounded" />
+          </div>
+        </section>
+
+      </article>
     </div>
   </section>
 </template>
 
 <script setup>
-import { useHead } from '#app';
+import { useRoute } from '#imports'
+import { computed } from 'vue'
 
-// ⭐️ Carga de TODOS los proyectos ⭐️
+const route = useRoute()
+
 const { data: projects, pending, error } = await useAsyncData(
-  'projectsData', // Clave única para Nuxt
+  'projectsData',
   () => $fetch('/data/projects.json')
-);
+)
 
-// Establecer el título de la página
-useHead({
-  title: 'Portafolio de Proyectos | ParteLuz Arquitectura',
-});
+const projectId = computed(() => route.params.id)
 
-// Nota: No es necesario hacer el chequeo de projects.value = [] aquí,
-// ya que v-if y v-for manejan correctamente el valor null/undefined.
+const project = computed(() => {
+  if (!projects || !projects.value) return null
+  return projects.value.find(p => String(p.id) === String(projectId.value)) || null
+})
+
+useHead(() => ({
+  title: project.value ? `${project.value.title} | Portafolio` : 'Proyecto | Portafolio'
+}))
 </script>
 
 

@@ -1,10 +1,14 @@
 <template>
 <section class="relative h-screen flex items-center justify-center">
-    <NuxtImg 
+    <img
         src="/img/aux/20171220_154404.webp"
         alt="Fachada principal de proyecto residencial de lujo en San Miguel de Allende por ParteLuz Arquitectura"
         class="absolute inset-0 w-full h-full object-cover z-0"
         loading="eager"
+        width="1600"
+        height="900"
+        sizes="100vw"
+        priority
     />
 
     <div class="absolute inset-0 bg-gray-800/10 z-10"></div> 
