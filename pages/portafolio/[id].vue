@@ -15,7 +15,7 @@
 
       <article v-else class="prose mx-auto">
         <NuxtLink to="/portafolio" class="text-sm text-primary hover:underline">← Volver al portafolio</NuxtLink>
-        <h1 class="text-3xl font-extrabold mt-4">{{ project.title }}</h1>
+        <h3 class="text-3xl font-extrabold mt-4">{{ project.title }}</h3>
         <p class="text-sm text-gray-500">{{ project.category }} — {{ project.year }}</p>
 
 

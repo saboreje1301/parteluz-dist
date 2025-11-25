@@ -6,16 +6,16 @@ onMounted(() => {
   console.log('[debug] index.vue mounted')
 })
 useHead({
-  title: 'Arquitectos en San Miguel de Allende | ParteLuz Arquitectura - Diseño y Construcción',
+  title: 'Arquitectos San Miguel de Allende |  Arquitectura, Diseño y Construcción',
   
   meta: [
     {
       name: 'description',
-      content: 'Estudio de arquitectura en San Miguel de Allende. Diseñamos y construimos casas de lujo, restauración colonial y proyectos contemporáneos. +15 años de experiencia en SMA.'
+      content: 'Estudio de arquitectura, construcción y diseño en San Miguel de Allende. Diseñamos y construimos casas de lujo, restauración colonial y proyectos contemporáneos. +15 años de experiencia en SMA.'
     },
     
     // 2. Open Graph Title (Para Redes Sociales/Compartir)
-    { property: 'og:title', content: 'Arquitectos en San Miguel de Allende | ParteLuz Arquitectura - Diseño y Construcción' },
+    { property: 'og:title', content: 'Arquitectos San Miguel de Allende | ParteLuz Diseño y Construcción' },
     
     // 3. Open Graph Description (Para Redes Sociales)
     { property: 'og:description', content: 'Estudio de arquitectura en San Miguel de Allende. Diseñamos y construimos casas de lujo, restauración colonial y proyectos contemporáneos. +15 años de experiencia en SMA.' },

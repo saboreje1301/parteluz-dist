@@ -36,9 +36,9 @@ import { ref, onMounted } from 'vue'
 const posts = ref([])
 
 useHead({
-  title: 'Blog | Parteluz Arquitectura',
+  title: 'Arquitectos en San Miguel de Allende',
   meta: [
-    { name: 'description', content: 'Artículos y noticias sobre arquitectura, diseño y construcción en San Miguel de Allende.' },
+    { name: 'description', content: 'Somos una firma dedicada a la arquitectura, el diseño y la construcción en San Miguel de Allende.' },
     { name: 'robots', content: 'index, follow' },
     { property: 'og:title', content: 'Blog | Parteluz Arquitectura' },
     { property: 'og:description', content: 'Lee nuestros artículos y consejos sobre arquitectura y construcción.' },

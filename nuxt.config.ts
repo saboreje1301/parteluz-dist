@@ -3,6 +3,11 @@ import Icons from 'unplugin-icons/vite'
 import { defineNuxtConfig } from 'nuxt/config'; // Asegúrate de importar esto si no está
 
 export default defineNuxtConfig({
+    runtimeConfig: {
+    public: {
+      siteUrl: 'https://www.parteluzarquitectura.com'
+    }
+  },
   app: {
     head: {
       htmlAttrs: {
@@ -84,6 +89,11 @@ export default defineNuxtConfig({
   
   nitro: {
     routeRules: {
+            '/**': {
+        headers: {
+          'Strict-Transport-Security': 'max-age=63072000; includeSubDomains; preload'
+        }
+      },
       '/_nuxt/**': 
       { headers: { 
         'Cache-Control': 'public, max-age=31536000, immutable' } 
@@ -135,5 +145,6 @@ export default defineNuxtConfig({
       }
     }
   },
-}
+},
+
 );

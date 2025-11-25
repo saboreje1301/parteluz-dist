@@ -9,7 +9,7 @@
           <div class="p-2">
             <h2 class="text-4xl font-bold mb-6 text-gray-800">Quiénes Somos: Arquitectura de Alta Calidad en San Miguel de Allende</h2> 
             <p class="mt-4 text-lg text-gray-700 leading-relaxed">
-              Somos un equipo de **arquitectos y constructores con sede en San Miguel de Allende**, dedicados al diseño de **residencias de alta calidad** y a la **restauración colonial** de fincas históricas. Buscamos trascender lo funcional, tejiendo historias de luz y sombra, de texturas y volúmenes, para dar vida a entornos que enriquecen tu mundo. Para nosotros, cada proyecto es una oportunidad de impactar positivamente el espacio y la vida de quienes lo habitan, creando una armonía entre la estructura y el espíritu del lugar.
+              Somos un equipo de arquitectos y constructores con sede en San Miguel de Allende**, dedicados al diseño de **residencias de alta calidad** y a la **restauración colonial** de fincas históricas. Buscamos trascender lo funcional, tejiendo historias de luz y sombra, de texturas y volúmenes, para dar vida a entornos que enriquecen tu mundo. Para nosotros, cada proyecto es una oportunidad de impactar positivamente el espacio y la vida de quienes lo habitan, creando una armonía entre la estructura y el espíritu del lugar.
             </p>
           </div>
 

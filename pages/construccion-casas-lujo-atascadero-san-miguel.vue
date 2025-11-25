@@ -1,6 +1,6 @@
 <template>
   <div class="prose max-w-5xl mx-auto py-10 px-4">
-    <h1>Construcción de casas de lujo — Atascadero, San Miguel de Allende</h1>
+    <h2>Construcción de casas de lujo — Atascadero, San Miguel de Allende</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
       <main class="md:col-span-2">

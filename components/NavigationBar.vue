@@ -1,8 +1,10 @@
 <template>
   <header class="fixed top-0 left-0 w-full z-50 bg-white/90 shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-      <img src="/img/parte-luz-icon.svg" alt="Parteluz Arquitectura" class="h-10 w-auto mr-4">
-      <h1 class="text-2xl font-serif font-semibold text-gray-800">Parteluz Arquitectura</h1>
+      <NuxtLink to="/" class="flex items-center" aria-label="Ir a inicio - Parteluz Arquitectura">
+        <img src="/img/parte-luz-icon.svg" alt="Parteluz Arquitectura" class="h-10 w-auto mr-4">
+        <span class="text-2xl font-serif font-semibold text-gray-800">Parteluz Arquitectura</span>
+      </NuxtLink>
       <!-- Desktop Navigation -->
       <nav class="hidden md:flex space-x-8">
         <a 
@@ -77,7 +79,7 @@ const links = [
   { id: '/nosotros', label: 'Nosotros' },
   { id: '/portafolio', label: 'Portafolio' },
   { id: '/servicios', label: 'Servicios' },
-  { id: '/contact', label: 'Contacto' }
+  { id: '/contacto', label: 'Contacto' }
 ]
 
 const isActive = (path) => route.path === path

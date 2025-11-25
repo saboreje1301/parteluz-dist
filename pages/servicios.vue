@@ -3,9 +3,9 @@
 
 
     <header class="pt-24 pb-8 px-4 text-center max-w-4xl mx-auto">
-      <h1 class="text-4xl sm:text-5xl font-serif font-extrabold mb-4 text-gray-900">
+      <h2 class="text-4xl sm:text-5xl font-serif font-extrabold mb-4 text-gray-900">
         Servicios de Diseño Arquitectónico, Construcción y Remodelación en San Miguel de Allende
-      </h1>
+      </h2>
       <p class="text-xl text-gray-700">
         En ParteLuz Arquitectura ofrecemos soluciones integrales para tu proyecto, desde el concepto inicial hasta la entrega final de tu casa de lujo, restauración o remodelación.
       </p>
@@ -39,7 +39,7 @@
 <script setup>
 // ⭐️ Meta Tags de SEO Optimizados ⭐️
 useHead({
-  title: 'Servicios de Diseño Arquitectónico, Construcción y Remodelación en San Miguel de Allende',
+  title: 'Servicios Diseño Arquitectónico, Construcción y Remodelación',
   meta: [
     { name: 'description', content: 'Descubre nuestros servicios de arquitectura en SMA: diseño de casas de lujo, construcción llave en mano, restauración colonial y remodelaciones integrales.' },
     { name: 'robots', content: 'index, follow' },

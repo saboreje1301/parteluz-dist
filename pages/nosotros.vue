@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'Nosotros: Firma de Arquitectos con Experiencia en San Miguel de Allende',
+  title: 'Nosotros, conócenos',
   meta: [
     { name: 'description', content: 'Conoce la trayectoria de ParteLuz Arquitectura. Somos un equipo de constructores y arquitectos dedicados al diseño de alta calidad y la restauración colonial en SMA.' },
     { name: 'robots', content: 'index, follow' },

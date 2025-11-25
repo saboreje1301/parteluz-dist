@@ -2,7 +2,7 @@
 import AvisoPrivacidad from '~/components/AvisoPrivacidad.vue'
 
 useHead({
-  title: 'Política de Privacidad | ParteLuz Arquitectura',
+  title: 'Política de Privacidad',
   meta: [
     { name: 'robots', content: 'index, follow' },
     { name: 'description', content: 'Aviso de privacidad de ParteLuz Arquitectura. Conoce cómo tratamos y protegemos tus datos.' }

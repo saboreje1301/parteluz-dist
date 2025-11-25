@@ -15,9 +15,9 @@
     
     <div class="text-center px-4 p-10 rounded-2xl max-w-2xl z-20 text-white bg-gray-900/50">
         <h1 class="text-2xl lg:text-3xl font-serif font-bold leading-tight mb-6">
-            Arquitectos en San Miguel de Allende | Diseño, Construcción y Lujo Residencial
+            Arquitectos en San Miguel de Allende | Diseño, Construcción y Remodelación
         </h1>
-        <a href="/contact" class="bg-white text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Agenda una consulta</a>
+        <a href="/contacto" class="bg-white text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Agenda una consulta</a>
     </div>
 </section>
 </template>
